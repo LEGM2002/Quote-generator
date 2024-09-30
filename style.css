@@ -1,0 +1,50 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffe6;
+    background-image:  linear-gradient(135deg, #1fb5d4 25%, transparent 25%), linear-gradient(225deg, #1fb5d4 25%, transparent 25%), linear-gradient(45deg, #1fb5d4 25%, transparent 25%), linear-gradient(315deg, #1fb5d4 25%, #ffffffe6 25%);
+    background-position:  10px 0, 10px 0, 0 0, 0 0;
+    background-size: 20px 20px;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin-top: 10%;
+}
+
+#card-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#quotes-image{
+    width: 100px;
+    height: 75px;
+}
+
+.card-content{
+    margin: 20px;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#change-quote{
+    background-color: #1fb5d4;
+    border-color: #1fb5d4;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 8px;
+    font-size: 15px;
+}
